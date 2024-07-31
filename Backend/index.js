@@ -48,7 +48,7 @@ mongoose.connection.once("open", ()=>
         const salt = await bcrypt.genSalt(10);
         const pass = await bcrypt.hash(new_pass, salt);
         const type = "Admin"
-        const phone_num = 9611988905
+        const phone_num = 8004238938
         const dept = "CSIS"
         const image_url = ""
 
